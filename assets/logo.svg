@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <title>Origens Logo</title>
+  <circle cx="150" cy="150" r="120" stroke="#B33A26" stroke-width="3" fill="none"/>
+  <path d="M60,150 Q100,80 150,60" stroke="#C88C3D" stroke-width="3" fill="none"/>
+  <path d="M240,150 Q200,80 150,60" stroke="#C88C3D" stroke-width="3" fill="none"/>
+  <text x="50%" y="165" text-anchor="middle" font-size="36" font-family="Cormorant Garamond, serif" font-style="italic">Origens</text>
+</svg>
