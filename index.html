@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Origens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+  <!-- Header/Nav -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Origens</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Splash Screen -->
+  <div id="splash">
+    <div class="logo-container">
+      <svg id="origens-logo" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <title>Origens Logo</title>
+        <circle id="circle" cx="150" cy="150" r="120" stroke="#B33A26" stroke-width="3" fill="none" stroke-dasharray="754" stroke-dashoffset="754"/>
+        <path id="branch-left" d="M60,150 Q100,80 150,60" stroke="#C88C3D" stroke-width="3" fill="none" stroke-dasharray="200" stroke-dashoffset="200"/>
+        <path id="branch-right" d="M240,150 Q200,80 150,60" stroke="#C88C3D" stroke-width="3" fill="none" stroke-dasharray="200" stroke-dashoffset="200"/>
+        <text id="logo-text" x="50%" y="165" text-anchor="middle" font-size="36" font-family="Cormorant Garamond, serif" font-style="italic" opacity="0">Origens</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="video-container">
+      <iframe id="hero-video" title="Origens Hero Video" src="https://www.youtube.com/embed/w2pd8SC8eKU?autoplay=1&mute=1&controls=0&loop=1&playlist=w2pd8SC8eKU" frameborder="0" allow="autoplay; fullscreen"></iframe>
+      <button id="mute-toggle">🔊</button>
+    </div>
+    <div class="hero-cta">
+      <h1>Welcome to Origens</h1>
+      <p>Mediterranean cuisine reimagined with the richness of Mexican flavors.</p>
+      <a href="reservations.html" class="cta-button">Reserve a Table</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
